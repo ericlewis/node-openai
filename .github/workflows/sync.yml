@@ -2,7 +2,7 @@ name: Sync + Build + Publish
 
 on:
   schedule: 
-  - cron: "*/15 * * * *"
+  - cron: "*/5 * * * *"
 
 jobs:
   repo-sync:
